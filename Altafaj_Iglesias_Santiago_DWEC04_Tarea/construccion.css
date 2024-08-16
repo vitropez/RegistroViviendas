@@ -1,0 +1,57 @@
+#contenedor{
+    width:auto;
+    height:auto;
+    background-image: url("briks.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+article{
+    width:500px;
+    height: 325px;    
+    background-color: orange;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    overflow-y: scroll;
+  
+}
+#resultado{
+    width: 400px;
+    height: 300px;
+    background-color: pink;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    overflow-y: scroll;
+}
+.linedthick{
+    border:solid 7px #41403E;
+ }
+ .dottedthick{
+    border:dotted 5px #41403E;
+ }
+ .dashedthick{
+   border:dashed 5px #41403E;
+ }
+  .linedthin{
+    border:solid 2px #41403E;
+ }
+ .dottedthin{
+    border:dotted 2px #41403E;
+ }
+ .dashedthin{
+   border:dashed 2px #41403E;
+ }
+ 

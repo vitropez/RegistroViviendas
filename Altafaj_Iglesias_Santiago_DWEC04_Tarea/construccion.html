@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea4</title>
+    <script src="Edificio.js"></script>
+    <link rel="stylesheet" href="construccion.css">
+</head>
+<body>
+    <div id="contenedor">
+        <section>
+            <article id="datos"></article>
+            <article>
+                <section>
+                    <button class='linedthick' onclick="Edificio.crearCasas()">CONSTRUIR</button>
+                    <button class='dottedthick' onclick="Edificio.imprimeCalle()">VER CALLE</button>
+                    <button class='dashedthick'onclick="Edificio.imprimeNumero()">VER NUMERO</button>
+                    <button class='linedthin'onclick="Edificio.imprimeCodigoPostal()">VER C.P.</button>
+                    <button class='dottedthin' onclick="Edificio.modificar()">MODIFICAR</button>
+                    <button class='dashedthin' onclick="Edificio.propietarios()">AÑADIR PROPIETARIO</button>
+                    <button class='dashedthin' onclick="Edificio.imprimePlantas()">MOSTRAR PROPIETARIOS</button>
+                    <button class='dashedthin' onclick="Edificio.añadirPlantas()">AÑADIR PLANTAS</button>
+                  </section>
+                
+            </article>
+        </section>
+        <section> 
+            <div id="resultado"></div>
+        </section>
+    </div>
+    
+</body>
+</html>
